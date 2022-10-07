@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Google Maps API</title>
+</head>
+<body>
+    <div class="container">
+        <div id="map" style="min-height: 600px;"></div>
+        <div class="sights" id="sights">
+            <ul class="list" id="lists">
+                <li class="list__item" id="one">Golden Gate</li>
+                <li class="list__item" id="two">Mariyinsky Palace</li>
+                <li class="list__item" id="three">St. Nicholas Cathedral</li>
+                <li class="list__item" id="four">National Sports Complex “Olympiyskiy”</li>
+            </ul>
+        </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
